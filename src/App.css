@@ -1,0 +1,147 @@
+ 
+    body {
+      min-height: 100vh;
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #0cd8c4;
+      min-height: 100vh;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+    }
+    .sidebar a:hover {
+      background-color: #0cd8c4;
+    }
+  
+
+
+    
+
+
+
+   .sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content {
+  margin-left: 550px; 
+ 
+  flex-grow: 100;
+}
+
+
+
+
+/* src/App.css */
+
+.d-flex {
+  display: flex;
+}
+
+.sidebar {
+  /* Fija el ancho de la barra lateral */
+  min-width: 250px;
+  max-width: 250px;
+  background-color: #343a40; /* Color de fondo oscuro */
+  color: white;
+  min-height: 100vh;
+  padding: 1rem;
+  /* Posición fija para que no se mueva al hacer scroll */
+  position: fixed; 
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+}
+
+
+.content {
+  
+  margin-left: 250px;
+  flex-grow: 1; 
+  padding: 1rem;
+  overflow-y: auto; 
+}
+
+/* css calculadora*/
+
+
+.calculadora-container {
+    
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+.calculadora-container input,
+.calculadora-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.calculadora-container input {
+    border: 1px solid #ccc;
+}
+
+.calculadora-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.calculadora-container button:hover {
+    background-color: #0056b3;
+}
+
+
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
